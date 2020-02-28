@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1000px;
+  height: 900px;
+  background-color: chartreuse;
+  margin: auto;
+  position: relative; 
+}
+.container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.login {
+  width: 550px;
+  /* height: 670px; */
+  background-color: white;
+  position: absolute;
+  top: 70px;
+  left: 240px;
+  border-radius: 5%;
+}
+
+.profile {
+  width: 100%;
+  height: 20%;
+  float: left;
+}
+.form {
+  width: 100%;
+  height: 80%;
+
+  float: left;
+}
+.profile .profile1 {
+  width: 130px;
+  height: 130px;
+ 
+ 
+  margin-left: 40%;
+  float: left;
+  position: relative;
+}
+.profile img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius:100% ;
+  padding: 5px;
+}
+.login .form form samp {
+  font-size: 20px;
+}
+.login .form form {
+  line-height: 70px;
+}
+.login .form .box1 {
+  float: left;
+}
+.login .form .box2 {
+  float: left;
+}
+.login .form .box2 input {
+  margin-left: 100px;
+  float: left;
+  margin-top: 20px;
+}
+.login .form fieldset .box2 code {
+  float: left;
+  margin-left: 20px;
+  line-height: normal;
+  margin-top: 20px;
+}
+.login .form fieldset button {
+  background-color: brown;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor:pointer;
+}
+.login .form fieldset {
+  border-radius: 30px;
+}
+.login .form fieldset legend{
+  margin-left: 41%;
+  font-size: 40px;
+}
+.login .form fieldset code {
+  display: block;
+  text-align: center;
+}
+.login .form fieldset .link-login {
+  width: 100%;
+  background-color: cadetblue;
+}
+.login .form fieldset .link-login .link1 {
+  width: 50%;
+  float: left;
+}
+.login .form fieldset .link-login .link1 a {
+  border: 1px solid grey;
+  line-height: 20px;
+  border-radius: 5px;
+  float: right;
+  padding: 5px 15px 5px 15px;
+  margin-right: 30px;
+  text-decoration: none;
+  color: blue;
+}
+.login .form fieldset .link-login .link2 {
+  width: 50%;
+  float: left;
+}
+.login .form fieldset .link-login .link2 a {
+  border: 1px solid grey;
+  line-height: 20px;
+  border-radius: 5px;
+  float: left;
+  padding: 5px 34px 5px 34px;
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+}
+}

@@ -1,0 +1,778 @@
+.my-main-container{
+    padding:0;
+    /* background-color: #00008b; */
+    
+}
+.my-img-container{
+    padding: 0;
+}
+.my-img-container img{
+   width: 100%;
+   height: 700px;
+}
+/* ----------------------------logo contacts location and pagename------------------------ */
+.my-logo-container{
+    height: 100px;
+    position: relative;
+    background-color:#dee3e3;
+}
+
+.logo img{
+    height:100px;
+    width: 140px;
+    position: absolute;
+    top: 5px;
+  
+}
+.phone-number{
+   
+    height: 100px;
+   
+    
+}
+.border{
+    /* background-color: rgba(128, 128, 128, 0.548); */
+     /* box-shadow:#3b3c38 4px 5px 7px; */
+    width: 350px;
+    height: 60px;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 24px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 4%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.border:hover{
+    /* background-color: rgba(128, 128, 128, 0.548); */
+     box-shadow:#3b3c38 4px 5px 7px;
+    width: 350px;
+    height: 60px;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 24px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 4%;
+    cursor: pointer;
+}
+.phone-number .border:first-child i{
+  
+   font-size: 50px;
+    float: left;
+    padding: 3px 2px 0px 5px;
+}
+.phone-number .border:first-child p{
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    margin-right: 150px;
+}
+.phone-number .border:last-child i{
+  
+    font-size: 50px;
+     float: left;
+     padding: 3px 2px 0px 5px;
+ }
+ .phone-number .border:last-child p{
+    font-size: 17px;
+     padding: 0;
+     margin: 0;
+     margin-right: 150px;
+ }
+
+ .phone-number .border:first-child .contact-size:last-child{
+     font-size: 13px;
+ }
+ .phone-number .border:last-child .contact-size:last-child{
+    font-size: 13px;
+}
+
+/* ---------------------------- end logo contacts location and pagename------------------------ */
+
+/* -----------------------------------Menu---------------------------------------------------- */
+.bg-light {
+    background-color: #1c2841 !important;
+}
+.nav-link{
+    color:#fafafa !important ;
+}
+.collapse ul:first-child{
+    margin: 0px 0px 0px 15px;
+}
+.collapse ul li a{
+    padding: 15px;
+    margin-left:5px ;
+}
+.collapse ul li:hover{
+    background-color: #8348FF;
+    
+}
+.navbar{
+    padding: 0px;
+}
+.form-inline {
+    float: left !important;
+}
+.collapse:last-child ul{
+float: right !important;
+
+margin-left: 400px;
+}
+.collapse:last-child ul li{
+    list-style-type:none ;
+     float: left;
+     margin-left: 15px;
+    
+}
+.collapse:last-child ul li a i{
+     font-size: 23px;
+     
+}
+
+/* ------------------------------------end Menu----------------------------------------------- */
+
+/* --------------------------------intro-container--------------------------------- */
+.my-intro-container{
+    height: 400px;
+    /* background-color: red; */
+    padding: 0;
+    position: relative;
+  }
+  .my-intro-container img{
+      width: 100%;
+      height: 100%;
+      
+  }
+  .my-intro-container .wellcom{
+      width: 400px;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%,-60%);
+      color: white;
+      background-color: #071e3d91;
+      border-radius: 10px;
+  }
+  .my-intro-container .wellcom .wellcom-box{
+      width: 90%;
+      margin-left: 10%;
+      /* background-color: turquoise; */
+  }
+  .my-intro-container .wellcom .wellcom-box h1{
+      font-size: 25px;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 40px ;
+  }
+  .my-intro-container .wellcom .wellcom-box  p{
+      font-size: 18px;
+      line-height: 20px;
+  }
+  .my-intro-container .wellcom-learnMore-btn{
+      position: absolute;
+      top: 83%;
+      left: 33%;
+      width: 115px;
+      
+  }
+  .my-intro-container .wellcom-start-btn{
+      position: absolute;
+      top:83%;
+      left: 57%;
+      width: 115px;
+  }
+  .btn-style{
+      display: block;
+      text-align: center;
+      background-color: #3d6cb9;
+      border: none;
+      border-radius: 11px;
+      font-family: 'Squada One', cursive;
+  }
+  .btn-style:hover{
+      color: #ffffff;
+      background-color:#fc5c9c;
+      transition: 1s;
+      
+  }
+  
+  /* ----------------------------------end intro-contaier------------------------------ */
+
+  /* ---------------------------------- lesson-container-------------------------------- */
+  
+    .my-lesson-container{
+        height: 900px;
+        /* background-color: violet; */
+        padding: 0;
+        margin-top: 1%;
+    }
+    .my-row{
+        padding: 0;
+        margin:0;
+    }
+    .my-col{
+        /* background-color:gray; */
+        height: 450px;
+        padding: 5px 5px 5px 5px;
+    }
+    .box{
+        width: 100%;
+        height: 100%;
+        background-color:#002651;
+        overflow: hidden;
+        
+    }
+    .my-col .box img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .my-col .box .title{
+        width: 90%;
+        height: 50%;
+        position: absolute;
+        left: 5%;
+        bottom: 10px;
+        background-color:#f0f0f096;
+        cursor: pointer;
+    }
+    .my-col .box .title h1{
+        font-size: 24px;
+        font-family: 'Oswald';
+        text-align: center;
+    }
+    .my-col .box .title p{
+        font-size: 15px;
+        font-family: 'Oswald' ;
+        text-align: center;
+    }
+
+  /* ---------------------------------- lesson-container -------------------------------- */
+
+  /* ---------------------------------- about us------------------------------------------ */
+
+     .my-about-container{
+         background-color: black;
+         height: 400px;
+         position: relative;
+         
+     }
+     .my-about-container h1{
+         font-size: 120px;
+         color: white;
+         position: absolute;
+         top:50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         text-decoration:none;
+         font-family: 'Akronim' ;
+         cursor:pointer;
+         transition:1.5s;
+     }
+     .my-about-container h1:hover{
+         color: violet;
+     }
+  /* -----------------------------------end about us ------------------------------------- */
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   /* ----------------------------logo contacts location and pagename------------------------ */
+.my-logo-container{
+    height: 100px;
+    position: relative;
+    background-color:#dee3e3;
+}
+
+.logo img{
+    height:100px;
+    width: 140px;
+    position: absolute;
+    top: 5px;
+  
+}
+.phone-number{
+   
+    height: 100px;
+   
+    
+}
+.border{
+    /* background-color: rgba(128, 128, 128, 0.548); */
+     /* box-shadow:#3b3c38 4px 5px 7px; */
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 24px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 4%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.border:hover{
+    /* background-color: rgba(128, 128, 128, 0.548); */
+     box-shadow:#3b3c38 4px 5px 7px;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 24px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 4%;
+    cursor: pointer;
+}
+.phone-number .border:first-child i{
+  
+   font-size: 40px;
+    float: left;
+    padding: 3px 2px 0px 5px;
+}
+.phone-number .border:first-child p{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    margin-right: 100px;
+}
+.phone-number .border:last-child i{
+  
+    font-size: 40px;
+     float: left;
+     padding: 3px 2px 0px 5px;
+ }
+ .phone-number .border:last-child p{
+     font-size: 15px;
+     padding: 0;
+     margin: 0;
+     margin-right: 100px;
+ }
+ .phone-number .border:first-child .contact-size:last-child{
+    font-size: 10px;
+}
+.phone-number .border:last-child .contact-size:last-child{
+   font-size: 10px;
+}
+ 
+
+/* ---------------------------- end logo contacts location and pagename------------------------ */
+
+/* -----------------------------------Menu---------------------------------------------------- */
+
+.collapse ul li a{
+    padding: 15px;
+    margin-left:5px ;
+    font-size: 15px;
+}
+.collapse:last-child ul{
+float: right !important;
+margin-left: 300px;
+}
+.collapse:last-child ul li a i{
+     font-size: 20px; 
+}
+/* ------------------------------------end Menu----------------------------------------------- */
+
+/* -----------------------------------inrto container------------------------------------------ */
+.my-intro-container .wellcom-learnMore-btn{
+    position: absolute;
+    top: 83%;
+    left: 33%;
+    width: 100px;
+    
+}
+.my-intro-container .wellcom-start-btn{
+    position: absolute;
+    top:83%;
+    left: 57%;
+    width: 100px;
+}
+.btn-style{
+    display: block;
+    text-align: center;
+    background-color: #3d6cb9;
+    border: none;
+    border-radius: 11px;
+    font-family: 'Squada One', cursive;
+    font-size:13px
+}
+.my-intro-container .wellcom .wellcom-box h1{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px ;
+}
+.my-intro-container .wellcom .wellcom-box  p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.btn-style{
+    display: block;
+    text-align: center;
+    background-color: #3d6cb9;
+    border: none;
+    border-radius: 11px;
+    font-family: 'Squada One', cursive;
+}
+.btn-style:hover{
+    color: #ffffff;
+    background-color:#fc5c9c;
+    transition: 1s;
+    
+}
+/* ------------------------------------end container---------------------------------------------- */
+}
+
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+     /* ----------------------------logo contacts location and pagename------------------------ */
+.my-logo-container{
+    height: 100px;
+    position: relative;
+    background-color:#dee3e3;
+}
+
+.logo img{
+    height:100px;
+    width: 140px;
+    position: absolute;
+    top: 5px;
+  
+}
+.phone-number{
+   
+    height: 100px;
+   
+    
+}
+.border{
+    /* background-color: rgba(128, 128, 128, 0.548); */
+     /* box-shadow:#3b3c38 4px 5px 7px; */
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 24px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 4%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.border:hover{
+    /* background-color: rgba(128, 128, 128, 0.548); */
+     box-shadow:#3b3c38 4px 5px 7px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 24px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 4%;
+    cursor: pointer;
+}
+.phone-number .border:first-child i{
+  
+   font-size: 40px;
+    float: left;
+    padding: 3px 2px 0px 5px;
+}
+.phone-number .border:first-child p{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+}
+.phone-number .border:last-child i{
+  
+    font-size: 40px;
+     float: left;
+     padding: 3px 2px 0px 5px;
+ }
+ .phone-number .border:last-child p{
+     font-size: 15px;
+     padding: 0px;
+     margin: 0;
+     margin-right: 20px;
+ }
+ .phone-number .border:first-child .contact-size:last-child{
+    font-size: 10px;
+}
+.phone-number .border:last-child .contact-size:last-child{
+   font-size: 10px;
+}
+ /* -----------------------------------inrto container------------------------------------------ */
+.my-intro-container .wellcom-learnMore-btn{
+    position: absolute;
+    top: 83%;
+    left: 33%;
+    width: 100px;
+    
+}
+.my-intro-container .wellcom-start-btn{
+    position: absolute;
+    top:83%;
+    left: 57%;
+    width: 100px;
+}
+.btn-style{
+    display: block;
+    text-align: center;
+    background-color: #3d6cb9;
+    border: none;
+    border-radius: 11px;
+    font-family: 'Squada One', cursive;
+    font-size:13px
+}
+.my-intro-container .wellcom .wellcom-box h1{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px ;
+}
+.my-intro-container .wellcom .wellcom-box  p{
+    font-size: 15px;
+    line-height: 25px;
+}
+/* ------------------------------------end intro container---------------------------------------------- */
+
+/* ---------------------------- end logo contacts location and pagename------------------------ */
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){
+      /* ----------------------------logo contacts location and pagename------------------------ */
+
+      .phone-number{
+        height: 100px;
+        display: none;
+    }
+    
+    .logo img{
+        height:100px;
+        width: 140px;
+        position: absolute;
+        top: 5px;
+        margin-left: 33%;
+    
+    }
+
+/* ---------------------------- end logo contacts location and pagename------------------------ */
+/* ----------------intro container------------------------------------------------- */
+.my-intro-container .wellcom-learnMore-btn{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    width: 100px;
+    
+}
+.my-intro-container .wellcom-start-btn{
+    position: absolute;
+    top:80%;
+    left: 57%;
+    width: 100px;
+}
+.btn-style{
+    display: block;
+    text-align: center;
+    background-color: #3d6cb9;
+    border: none;
+    border-radius: 11px;
+    font-family: 'Squada One', cursive;
+    font-size:13px
+}
+.my-intro-container .wellcom .wellcom-box h1{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px ;
+}
+.my-intro-container .wellcom .wellcom-box  p{
+    font-size: 12px;
+    line-height: 25px;
+}
+.my-intro-container .wellcom{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    color: white;
+    background-color: #071e3d91;
+    border-radius: 10px;
+}
+.btn-style{
+    display: block;
+    text-align: center;
+    background-color: #3d6cb9;
+    border: none;
+    border-radius: 11px;
+    font-family: 'Squada One', cursive;
+}
+.btn-style:hover{
+    color: #ffffff;
+    background-color:#fc5c9c;
+    transition: 1s;
+    
+}
+/* ------------------------------------end intro container---------------------------------------------- */
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 360.98px) {
+    .phone-number{
+        height: 100px;
+        display: none;
+    }
+    
+    .logo img{
+        height:100px;
+        width: 140px;
+        position: absolute;
+        top: 5px;
+        margin-left: 33%;
+    
+    }
+    /* ----------------intro container------------------------------------------------- */
+.my-intro-container .wellcom-learnMore-btn{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    width: 100px;
+    
+}
+.my-intro-container .wellcom-start-btn{
+    position: absolute;
+    top:80%;
+    left: 57%;
+    width: 100px;
+}
+.btn-style{
+    display: block;
+    text-align: center;
+    background-color: #3d6cb9;
+    border: none;
+    border-radius: 11px;
+    font-family: 'Squada One', cursive;
+    font-size:13px
+}
+.my-intro-container .wellcom .wellcom-box h1{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px ;
+}
+.my-intro-container .wellcom .wellcom-box  p{
+    font-size: 12px;
+    line-height: 25px;
+}
+.my-intro-container .wellcom{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    color: white;
+    background-color: #071e3d91;
+    border-radius: 10px;
+}
+.btn-style{
+    display: block;
+    text-align: center;
+    background-color: #3d6cb9;
+    border: none;
+    border-radius: 11px;
+    font-family: 'Squada One', cursive;
+}
+.btn-style:hover{
+    color: #ffffff;
+    background-color:#fc5c9c;
+    transition: 1s;
+    
+}
+/* ------------------------------------end intro container---------------------------------------------- */
+
+}
+@media (max-width: 414.98px){
+
+    .phone-number{
+        height: 100px;
+        display: none;
+    }
+    
+    .logo img{
+        height:100px;
+        width: 140px;
+        position: absolute;
+        top: 5px;
+        margin-left: 33%;
+    
+    }
+    /* ----------------intro container------------------------------------------------- */
+.my-intro-container .wellcom-learnMore-btn{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    width: 100px;
+    
+}
+.my-intro-container .wellcom-start-btn{
+    position: absolute;
+    top:80%;
+    left: 57%;
+    width: 100px;
+}
+.btn-style{
+    display: block;
+    text-align: center;
+    background-color: #3d6cb9;
+    border: none;
+    border-radius: 11px;
+    font-family: 'Squada One', cursive;
+    font-size:13px
+}
+.my-intro-container .wellcom .wellcom-box h1{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px ;
+}
+.my-intro-container .wellcom .wellcom-box  p{
+    font-size: 12px;
+    line-height: 25px;
+}
+.my-intro-container .wellcom{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    color: white;
+    background-color: #071e3d91;
+    border-radius: 10px;
+
+}
+.btn-style{
+    display: block;
+    text-align: center;
+    background-color: #3d6cb9;
+    border: none;
+    border-radius: 11px;
+    font-family: 'Squada One', cursive;
+}
+.btn-style:hover{
+    color: #ffffff;
+    background-color:#fc5c9c;
+    transition: 1s;
+    
+   }
+}
